@@ -1,24 +1,21 @@
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
+# Dependencias
 node_modules
+
+# Compilación y distribuciones
 dist
 dist-ssr
+
+# Configuraciones locales
+.vscode/
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Archivos temporales o generados por herramientas
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.sw?
+
+# Docker y otros entornos
+target
